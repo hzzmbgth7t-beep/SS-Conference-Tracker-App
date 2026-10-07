@@ -8,4 +8,4 @@ The Southern Software conference tracker: five views (Overview, Money, Logistics
 
 Files: `index.html` (the whole app in one file), `config.js`, `manifest.webmanifest`, `icon-180.png`, `icon-192.png`, `icon-512.png`.
 
-Version 3.0.0, built 2026-10-02 06:20 ET. To update the app, replace `index.html` with the new one. Keep `config.js` as it is.
+Version 3.0.1, built 2026-10-04 08:26 ET. To update the app, replace `index.html` with the new one. Keep `config.js` as it is.
