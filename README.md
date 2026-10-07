@@ -1,6 +1,10 @@
 # SS Conference Tracker App
 
-The Southern Software conference tracker: five views (Overview, Money, Logistics, Evidence, Lookup) reading the Supabase database after sign-in.
+**Version 3.0.2, built 2026-10-07 17:51 ET**
+
+Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.0.2
+
+The Southern Software conference tracker: five views (Overview, Money, Logistics, Evidence, Lookup) reading the Supabase database after sign-in, plus an Admin tab for users with the admin permission.
 
 **This repository is PUBLIC. It holds the page only, never data and never secrets.**
 - The conference data stays in the database behind sign-in and row-level security.
@@ -8,4 +12,4 @@ The Southern Software conference tracker: five views (Overview, Money, Logistics
 
 Files: `index.html` (the whole app in one file), `config.js`, `manifest.webmanifest`, `icon-180.png`, `icon-192.png`, `icon-512.png`.
 
-Version 3.0.1, built 2026-10-04 08:26 ET. To update the app, replace `index.html` with the new one. Keep `config.js` as it is.
+To update the app, replace `index.html` (and this README) with the new ones. Keep `config.js` as it is.
