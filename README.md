@@ -1,10 +1,10 @@
 # SS Conference Tracker App
 
-**Version 3.0.2, built 2026-10-07 17:51 ET**
+**Version 3.0.3, built 2026-10-07 19:08 ET**
 
-Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.0.2
+Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.0.3
 
-The Southern Software conference tracker: five views (Overview, Money, Logistics, Evidence, Lookup) reading the Supabase database after sign-in, plus an Admin tab for users with the admin permission.
+The Southern Software conference tracker: five views (Overview, Money, Logistics, Evidence, Lookup) reading the Supabase database after sign-in, plus an Admin tab for users with the admin permission. Approved devices stay signed in until the next app update; Face ID / passkey sign-in is available.
 
 **This repository is PUBLIC. It holds the page only, never data and never secrets.**
 - The conference data stays in the database behind sign-in and row-level security.
