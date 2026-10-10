@@ -1,12 +1,14 @@
 # SS Conference Tracker App
 
-**Version 3.3.0, built 2026-10-10 10:17 ET**
+**Version 3.3.1, built 2026-10-10 12:05 ET**
 
-Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.3.0
+Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.3.1
 
 The Southern Software conference tracker: four views (Overview, Money, Logistics, Evidence) and a Help page chosen from a menu, reading the Supabase database after sign-in, with a State filter and a My shows button on every view, plus an Admin view for users with the admin permission (the owner also manages users there). Approved devices stay signed in until the next app update; Face ID / passkey sign-in is available.
 
-New in 3.3.0: Overview — the Show and Display toggles sit on one row with a Reset button (back to the page as it opens at sign-in); a Search box under them replaces the Lookup page and searches both years (each match shows its year); a Shows by state bar chart runs left to right with the count at the right — press a state and the chart collapses to that bar with its shows listed below; Display gains Full (every detail of each show on the page). Tiles, chart, list and Next up all reflect the search, the pressed tile and the pressed state.
+New in 3.3.1: Overview — Current now limits everything (tiles, Shows by state chart, list, Next up) to the ongoing and upcoming shows and puts the completed shows in a Completed section that starts minimised (expand / collapse); the Shows by state chart starts minimised with an Expand / Collapse button and is not shown with the Board; the Board has its own Collapse / Expand button.
+
+Also in 3.3.0: Overview — the Show and Display toggles sit on one row with a Reset button (back to the page as it opens at sign-in); a Search box under them replaces the Lookup page and searches both years (each match shows its year); a Shows by state bar chart runs left to right with the count at the right — press a state and the chart collapses to that bar with its shows listed below; Display gains Full (every detail of each show on the page). Tiles, chart, list and Next up all reflect the search, the pressed tile and the pressed state.
 
 Also in 3.2.0: Users (owner only) — each account shows Active or Inactive with a Set as Inactive / Set as Active button (inactive accounts cannot sign in and sort to the bottom of the list); each account row also has a Manage button that opens three actions: Reset temporary password (new 14-character password, shown once), Change email address (to another @southernsoftware.com address) and Delete account (after a confirmation). Every action is written to the change log. Needs the v3.2.0 "admin-users" user service deployed in Supabase.
 
