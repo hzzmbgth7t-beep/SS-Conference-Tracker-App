@@ -1,12 +1,14 @@
 # SS Conference Tracker App
 
-**Version 3.0.9, built 2026-10-09 17:31 ET**
+**Version 3.1.0, built 2026-10-09 21:59 ET**
 
-Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.0.9
+Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.1.0
 
-The Southern Software conference tracker: five views (Overview, Money, Logistics, Evidence, Lookup) chosen from a menu, reading the Supabase database after sign-in, with a State filter and a My shows button on every view, plus an Admin view for users with the admin permission (the owner also manages users there). Approved devices stay signed in until the next app update; Face ID / passkey sign-in is available.
+The Southern Software conference tracker: five views (Overview, Money, Logistics, Evidence, Lookup) and a Help page chosen from a menu, reading the Supabase database after sign-in, with a State filter and a My shows button on every view, plus an Admin view for users with the admin permission (the owner also manages users there). Approved devices stay signed in until the next app update; Face ID / passkey sign-in is available.
 
-New in 3.0.9: the menu button always reads "Menu"; on a phone the Southern Software logo is centred on its own row and the year buttons, State filter and My shows share one row.
+New in 3.1.0: Help in the Menu — the User Guide for everyone (getting started, the header, every page, chips and labels, your account) and the Admin Guide for admin-tab accounts (permissions, amounts views, the Admin tab, Users, how data and updates get in, rules).
+
+Also in 3.0.9: the menu button always reads "Menu"; on a phone the Southern Software logo is centred on its own row and the year buttons, State filter and My shows share one row.
 
 Also in 3.0.8: cancelled shows stay in every list and count exactly as before, with a grey "Cancelled" chip wherever the show appears (Board, List, Large, Next up, Money, Logistics, Evidence, Lookup and the detail pop-up).
 
