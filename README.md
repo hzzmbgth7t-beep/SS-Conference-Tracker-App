@@ -1,12 +1,14 @@
 # SS Conference Tracker App
 
-**Version 3.4.0, built 2026-10-10 13:08 ET**
+**Version 3.5.0, built 2026-10-10 14:31 ET**
 
-Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.4.0
+Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.5.0
 
 The Southern Software conference tracker: four views (Overview, Money, Logistics, Evidence) and a Help page chosen from a menu, reading the Supabase database after sign-in, with a State filter and a My shows button on every view, plus an Admin view for users with the admin permission (the owner also manages users there). Approved devices stay signed in until the next app update; Face ID / passkey sign-in is available.
 
-New in 3.4.0: the app checks for a newer version every five minutes and whenever it comes to the front; when one is live, a yellow bar shows the version and its change note and "Tap to update" loads it. Users (owner only): press and hold a user row, or press Manage, to open a window with the actions stacked vertically — Reset temporary password, Change email address, Set as Inactive / Active, Delete account.
+New in 3.5.0: Logistics and Evidence each get a Display toggle — List (default, one line per show), Large (a card per show with every field for that page) and Full (every field written out on the page). Tap a show in List or Large to open the same detail pop-up as on the Overview. Logistics adds venue, booth exhibit status, last year's dates for shows not yet dated, who is attending and the Attendee Notes. Evidence adds show page link status, Gmail label and coverage, the website's current-year page, audit and last check, Conflict Review count and latest entry, 2027 sponsorship carryover and a With Conflict Review tile; accounts with the amounts permission also see Verified By, Verification Source and Payment Verification (other accounts never receive them). Needs the 48-column database (in place since build 2026-10-10_1339).
+
+Also in 3.4.0: the app checks for a newer version every five minutes and whenever it comes to the front; when one is live, a yellow bar shows the version and its change note and "Tap to update" loads it. Users (owner only): press and hold a user row, or press Manage, to open a window with the actions stacked vertically — Reset temporary password, Change email address, Set as Inactive / Active, Delete account.
 
 Also in 3.3.1: Overview — Current now limits everything (tiles, Shows by state chart, list, Next up) to the ongoing and upcoming shows and puts the completed shows in a Completed section that starts minimised (expand / collapse); the Shows by state chart starts minimised with an Expand / Collapse button and is not shown with the Board; the Board has its own Collapse / Expand button.
 
