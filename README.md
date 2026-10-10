@@ -1,12 +1,14 @@
 # SS Conference Tracker App
 
-**Version 3.3.1, built 2026-10-10 12:05 ET**
+**Version 3.4.0, built 2026-10-10 13:08 ET**
 
-Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.3.1
+Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.4.0
 
 The Southern Software conference tracker: four views (Overview, Money, Logistics, Evidence) and a Help page chosen from a menu, reading the Supabase database after sign-in, with a State filter and a My shows button on every view, plus an Admin view for users with the admin permission (the owner also manages users there). Approved devices stay signed in until the next app update; Face ID / passkey sign-in is available.
 
-New in 3.3.1: Overview — Current now limits everything (tiles, Shows by state chart, list, Next up) to the ongoing and upcoming shows and puts the completed shows in a Completed section that starts minimised (expand / collapse); the Shows by state chart starts minimised with an Expand / Collapse button and is not shown with the Board; the Board has its own Collapse / Expand button.
+New in 3.4.0: the app checks for a newer version every five minutes and whenever it comes to the front; when one is live, a yellow bar shows the version and its change note and "Tap to update" loads it. Users (owner only): press and hold a user row, or press Manage, to open a window with the actions stacked vertically — Reset temporary password, Change email address, Set as Inactive / Active, Delete account.
+
+Also in 3.3.1: Overview — Current now limits everything (tiles, Shows by state chart, list, Next up) to the ongoing and upcoming shows and puts the completed shows in a Completed section that starts minimised (expand / collapse); the Shows by state chart starts minimised with an Expand / Collapse button and is not shown with the Board; the Board has its own Collapse / Expand button.
 
 Also in 3.3.0: Overview — the Show and Display toggles sit on one row with a Reset button (back to the page as it opens at sign-in); a Search box under them replaces the Lookup page and searches both years (each match shows its year); a Shows by state bar chart runs left to right with the count at the right — press a state and the chart collapses to that bar with its shows listed below; Display gains Full (every detail of each show on the page). Tiles, chart, list and Next up all reflect the search, the pressed tile and the pressed state.
 
