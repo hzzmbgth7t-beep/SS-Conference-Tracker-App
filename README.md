@@ -1,12 +1,18 @@
 # SS Conference Tracker App
 
-**Version 3.1.0, built 2026-10-09 21:59 ET**
+**Version 3.3.0, built 2026-10-10 10:17 ET**
 
-Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.1.0
+Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.3.0
 
-The Southern Software conference tracker: five views (Overview, Money, Logistics, Evidence, Lookup) and a Help page chosen from a menu, reading the Supabase database after sign-in, with a State filter and a My shows button on every view, plus an Admin view for users with the admin permission (the owner also manages users there). Approved devices stay signed in until the next app update; Face ID / passkey sign-in is available.
+The Southern Software conference tracker: four views (Overview, Money, Logistics, Evidence) and a Help page chosen from a menu, reading the Supabase database after sign-in, with a State filter and a My shows button on every view, plus an Admin view for users with the admin permission (the owner also manages users there). Approved devices stay signed in until the next app update; Face ID / passkey sign-in is available.
 
-New in 3.1.0: Help in the Menu — the User Guide for everyone (getting started, the header, every page, chips and labels, your account) and the Admin Guide for admin-tab accounts (permissions, amounts views, the Admin tab, Users, how data and updates get in, rules).
+New in 3.3.0: Overview — the Show and Display toggles sit on one row with a Reset button (back to the page as it opens at sign-in); a Search box under them replaces the Lookup page and searches both years (each match shows its year); a Shows by state bar chart runs left to right with the count at the right — press a state and the chart collapses to that bar with its shows listed below; Display gains Full (every detail of each show on the page). Tiles, chart, list and Next up all reflect the search, the pressed tile and the pressed state.
+
+Also in 3.2.0: Users (owner only) — each account shows Active or Inactive with a Set as Inactive / Set as Active button (inactive accounts cannot sign in and sort to the bottom of the list); each account row also has a Manage button that opens three actions: Reset temporary password (new 14-character password, shown once), Change email address (to another @southernsoftware.com address) and Delete account (after a confirmation). Every action is written to the change log. Needs the v3.2.0 "admin-users" user service deployed in Supabase.
+
+Also in 3.1.1: Money tiles are narrower, three to a row on every screen; every tile on Overview and Money reflects the filters in force (State, My shows, a pressed tile, a pressed state bar); a pressed state bar shows a tick and an "All states" button, and the list heading has a "clear" button.
+
+Also in 3.1.0: Help in the Menu — the User Guide for everyone (getting started, the header, every page, chips and labels, your account) and the Admin Guide for admin-tab accounts (permissions, amounts views, the Admin tab, Users, how data and updates get in, rules).
 
 Also in 3.0.9: the menu button always reads "Menu"; on a phone the Southern Software logo is centred on its own row and the year buttons, State filter and My shows share one row.
 
