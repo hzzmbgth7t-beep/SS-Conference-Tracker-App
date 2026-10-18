@@ -1,14 +1,16 @@
 # SS Conference Tracker App
 
-**Version 3.5.1, built 2026-10-11 10:30 ET**
+**Version 3.5.2, built 2026-10-16 08:13 ET**
 
-Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.5.1
+Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.5.2
 
 Regular address (bookmarks and Home Screen): https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/
 
 SS Conferences, the Southern Software conference tracker: four views (Overview, Money, Logistics, Evidence) and a Help page chosen from a menu, reading the Supabase database after sign-in, with a State filter and a My shows button on every view, plus an Admin view for users with the admin permission (the owner also manages users there). Approved devices stay signed in until the next app update; Face ID / passkey sign-in is available.
 
-New in 3.5.1: the app is named SS Conferences everywhere — page title, header, sign-in screen and the name suggested when it is added to a Home Screen (manifest.webmanifest updated: upload it with index.html and this README). Help gains "Add the app to your Home Screen" — steps for iPhone / iPad (Safari) and Android phones and tablets (Chrome, Samsung Internet, Firefox), plus signing in once inside the Home Screen app. On a phone or tablet, a one-time tip after the first sign-in points to that section ("Show me how" opens it; "Not now" closes it); it is not shown on computers or when the app is opened from its Home Screen icon. The Help's Address note no longer says a new address is sent after each update — the in-app update bar does that.
+New in 3.5.2: the "Show n possible conferences" box counts only the year being viewed (2026 or 2027) and is hidden when that year has none; admins choose in Admin tab → Display settings whether the box sits at the top or the bottom of Overview, Money, Logistics and Evidence, for every user. Needs the app_settings table (App_Settings_Setup_v3.5.2.sql); until it exists the box stays at the bottom.
+
+Also in 3.5.1: the app is named SS Conferences everywhere — page title, header, sign-in screen and the name suggested when it is added to a Home Screen (manifest.webmanifest updated: upload it with index.html and this README). Help gains "Add the app to your Home Screen" — steps for iPhone / iPad (Safari) and Android phones and tablets (Chrome, Samsung Internet, Firefox), plus signing in once inside the Home Screen app. On a phone or tablet, a one-time tip after the first sign-in points to that section ("Show me how" opens it; "Not now" closes it); it is not shown on computers or when the app is opened from its Home Screen icon. The Help's Address note no longer says a new address is sent after each update — the in-app update bar does that.
 
 Also in 3.5.0: Logistics and Evidence each get a Display toggle — List (default, one line per show), Large (a card per show with every field for that page) and Full (every field written out on the page). Tap a show in List or Large to open the same detail pop-up as on the Overview. Logistics adds venue, booth exhibit status, last year's dates for shows not yet dated, who is attending and the Attendee Notes. Evidence adds show page link status, Gmail label and coverage, the website's current-year page, audit and last check, Conflict Review count and latest entry, 2027 sponsorship carryover and a With Conflict Review tile; accounts with the amounts permission also see Verified By, Verification Source and Payment Verification (other accounts never receive them). Needs the 48-column database (in place since build 2026-10-10_1339).
 
@@ -38,4 +40,4 @@ Also in 3.0.6: My shows (only the conferences you are listed as attending in the
 
 Files: `index.html` (the whole app in one file), `config.js`, `manifest.webmanifest`, `icon-180.png`, `icon-192.png`, `icon-512.png`.
 
-To update the app, replace `index.html` (and this README) with the new ones; when a build also includes `manifest.webmanifest` (as 3.5.1 does), replace that too. Keep `config.js` as it is.
+To update the app, replace `index.html` (and this README) with the new ones; when a build also includes `manifest.webmanifest` (3.5.1 did; 3.5.2 does not), replace that too. Keep `config.js` as it is.
