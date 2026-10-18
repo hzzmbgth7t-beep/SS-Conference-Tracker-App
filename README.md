@@ -1,14 +1,16 @@
 # SS Conference Tracker App
 
-**Version 3.8.1, built 2026-10-18 16:28 ET**
+**Version 3.8.2, built 2026-10-18 19:15 ET**
 
-Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.8.1
+Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.8.2
 
 Regular address (bookmarks and Home Screen): https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/
 
 SS Conferences, the Southern Software conference tracker: four views (Overview, Money, Logistics, Evidence) and a Help page chosen from a menu, reading the Supabase database after sign-in, with a State filter and a My shows button on every view, plus an Admin view for users with the admin permission (the owner also manages users there). Approved devices stay signed in until the next app update; Face ID / passkey sign-in is available.
 
-New in 3.8.1: in a show's pop-up, Contacts from this show and Add contact now sit directly under the show title, and a Notes button beside the dates (centred under the Contacts line on a phone) shows the show's notes count with how many are open — for example "2 (1 open)" — and takes you to the Notes section at the bottom.
+New in 3.8.2: Contacts — Read Card now opens the camera inside the app with a card-shaped outline (the phone asks once for camera permission). Line the card up and press Capture; only the part inside the outline is cleaned up (grey, enlarged, contrast stretched, black and white) and read on the device, and the picture is thrown away at once — never saved or uploaded. Words the reader is unsure of, lowercase slogan lines and stray marks are left out, so names and titles come through much better. If the live camera is not available, Read Card falls back to taking or choosing a picture and finds the card in it automatically. Scan Code is unchanged. The contact form has Back to Previous Page at the top; when something has been entered and not saved it reads Cancel and warns "This contact will not be saved if you leave this screen" with Stay Here / Back to Previous Page. Opened from a show's pop-up, Back to Previous Page returns to that pop-up. After saving, the form shows Saved with the contact and offers Add Another Contact (same show) and Back to Previous Page. Every button now capitalises its words, except small words such as a, and, at, for, of, the and to unless they come first; In and As are capitalised when they are part of the action (Add Note, Sign In, View As, Fill In, Show Me How).
+
+Also in 3.8.1: in a show's pop-up, Contacts from this show and Add contact now sit directly under the show title, and a Notes button beside the dates (centred under the Contacts line on a phone) shows the show's notes count with how many are open — for example "2 (1 open)" — and takes you to the Notes section at the bottom.
 
 Also in 3.8.0: Contacts (Menu → Contacts). Add the people met at shows: on iPhone or iPad use Scan Text in the card box, or press Read card or Scan code (QR codes and badge barcodes); pictures are read on the device and thrown away, never saved or uploaded. Press Fill in and check each field; pick the Conference (starts on the current or most recent show), Date met and Reason (Existing Customer, Lead, Vendor, Personal). A possible duplicate offers Use the existing contact, an update with a side-by-side list (Accept all or tick fields), or Save as a new contact. Visible to Everyone / Only me / Selected users; anyone who can see a contact can edit it, admins delete. Export offers only contacts new or changed since your last export, in one Apple Contacts file or one spreadsheet; admins have Backup all. Each show's pop-up shows its contacts and Add contact. Needs Contacts_Setup_v3.8.0.sql run once in Supabase; until then Contacts says it is not available.
 
