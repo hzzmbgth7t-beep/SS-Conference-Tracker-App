@@ -1,14 +1,16 @@
 # SS Conference Tracker App
 
-**Version 3.8.0, built 2026-10-18 15:22 ET**
+**Version 3.8.1, built 2026-10-18 16:28 ET**
 
-Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.8.0
+Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.8.1
 
 Regular address (bookmarks and Home Screen): https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/
 
 SS Conferences, the Southern Software conference tracker: four views (Overview, Money, Logistics, Evidence) and a Help page chosen from a menu, reading the Supabase database after sign-in, with a State filter and a My shows button on every view, plus an Admin view for users with the admin permission (the owner also manages users there). Approved devices stay signed in until the next app update; Face ID / passkey sign-in is available.
 
-New in 3.8.0: Contacts (Menu → Contacts). Add the people met at shows: on iPhone or iPad use Scan Text in the card box, or press Read card or Scan code (QR codes and badge barcodes); pictures are read on the device and thrown away, never saved or uploaded. Press Fill in and check each field; pick the Conference (starts on the current or most recent show), Date met and Reason (Existing Customer, Lead, Vendor, Personal). A possible duplicate offers Use the existing contact, an update with a side-by-side list (Accept all or tick fields), or Save as a new contact. Visible to Everyone / Only me / Selected users; anyone who can see a contact can edit it, admins delete. Export offers only contacts new or changed since your last export, in one Apple Contacts file or one spreadsheet; admins have Backup all. Each show's pop-up shows its contacts and Add contact. Needs Contacts_Setup_v3.8.0.sql run once in Supabase; until then Contacts says it is not available.
+New in 3.8.1: in a show's pop-up, Contacts from this show and Add contact now sit directly under the show title, and a Notes button beside the dates (centred under the Contacts line on a phone) shows the show's notes count with how many are open — for example "2 (1 open)" — and takes you to the Notes section at the bottom.
+
+Also in 3.8.0: Contacts (Menu → Contacts). Add the people met at shows: on iPhone or iPad use Scan Text in the card box, or press Read card or Scan code (QR codes and badge barcodes); pictures are read on the device and thrown away, never saved or uploaded. Press Fill in and check each field; pick the Conference (starts on the current or most recent show), Date met and Reason (Existing Customer, Lead, Vendor, Personal). A possible duplicate offers Use the existing contact, an update with a side-by-side list (Accept all or tick fields), or Save as a new contact. Visible to Everyone / Only me / Selected users; anyone who can see a contact can edit it, admins delete. Export offers only contacts new or changed since your last export, in one Apple Contacts file or one spreadsheet; admins have Backup all. Each show's pop-up shows its contacts and Add contact. Needs Contacts_Setup_v3.8.0.sql run once in Supabase; until then Contacts says it is not available.
 
 Also in 3.7.0: conference notes and View as. Open any show and use Notes at the bottom of its pop-up to add Information or a Request; everyone who can see the show sees its notes, with who wrote them and when. Admins see a red count on the Menu button, a banner on the other pages, and Admin → Notes to review, where each note is closed with a disposition — Read NFA (No Further Action), Read NFU (Needs Follow-Up) or Action Taken — and a short description. Admin → View as shows the app as another user sees it (their pages, amounts or not, their My shows) under a yellow bar with Exit view as; nothing can be added or changed while viewing. Needs Notes_ViewAs_Setup_v3.7.0.sql run once in Supabase; until then notes and View as say they are not available and the rest of the app works as before.
 
