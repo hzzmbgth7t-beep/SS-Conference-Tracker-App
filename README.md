@@ -1,14 +1,16 @@
 # SS Conference Tracker App
 
-**Version 3.8.6, built 2026-10-19 20:34 ET**
+**Version 3.8.7, built 2026-10-19 21:39 ET**
 
-Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.8.6
+Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.8.7
 
 Regular address (bookmarks and Home Screen): https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/
 
 SS Conferences, the Southern Software conference tracker: Overview, Contacts, Money (amounts accounts), Evidence (admins) and Help chosen from a menu, reading the Supabase database after sign-in, with a State filter and a My shows button on every view, plus an Admin view for users with the admin permission (the owner also manages users there). Approved devices stay signed in until the next app update; Face ID / passkey sign-in is available.
 
-New in 3.8.6: conference notes can be edited and deleted. Each note has Edit and Delete buttons for the people allowed to change it: admins (Admin-tab permission) can change or delete any note — its type and text and, on a closed note, its Disposition and Description; everyone else can change or delete their own notes while they are still open. Edit opens the note in place (Save Changes / Cancel); an edited note shows "Edited (date) by (name)". Delete asks first and then removes the note for good. Nothing can be changed while using View As. Needs Notes_Edit_Delete_Setup_v3.8.6.sql run once in Supabase; until then Edit and Delete say they are not available yet.
+New in 3.8.7: Contacts → Read Card reads cards much better, still entirely on the phone (the picture is never saved or uploaded). In testing on made-up cards photographed under phone-like conditions, the share of fields read right rose from about 47% to 83–87%. The camera asks for its sharpest picture and keeps focusing; shadows and glare are evened out and coloured bands or dark cards with light text are read; each card is read twice (large and smaller) and the fields are filled from both; and the field rules recognise agencies, titles and departments, phone labels (P:, C:, F:), and repair common reading slips in emails and websites. When the name cannot be read, the last name is taken from the email address and marked "check this"; a name that matches the email is marked "read". Reading takes a few seconds. The green "hold still" outline is now much thicker.
+
+Also in 3.8.6: conference notes can be edited and deleted. Each note has Edit and Delete buttons for the people allowed to change it: admins (Admin-tab permission) can change or delete any note — its type and text and, on a closed note, its Disposition and Description; everyone else can change or delete their own notes while they are still open. Edit opens the note in place (Save Changes / Cancel); an edited note shows "Edited (date) by (name)". Delete asks first and then removes the note for good. Nothing can be changed while using View As. Needs Notes_Edit_Delete_Setup_v3.8.6.sql run once in Supabase; until then Edit and Delete say they are not available yet.
 
 Also in 3.8.5: each show's Sponsorship Level shows last year's level beside it — for example "Gold · Last year: Silver" — in the show pop-up and on Money, for everyone who sees the level; Search finds a show by last year's level too. When last year's level is not recorded, only this year's level shows. Contacts → Read Card takes the picture by itself: fill the outline with the card and hold still; when the card's edges line up with the outline and the picture stays still, the outline turns green ("Hold still…") and after one second the picture is taken. Capture still works at any time, and Close stops it. Glare, a light table or a card held far away can keep it from firing; then press Capture. Needs Previous_Year_Level_Setup_v3.8.5.sql run once in Supabase; last year's levels appear after the first workbook build that carries them.
 
