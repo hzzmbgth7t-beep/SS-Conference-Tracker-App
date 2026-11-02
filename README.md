@@ -1,12 +1,14 @@
 # SS Conference Tracker App
 
-**Version 3.8.12, built 2026-10-26 05:31 ET**
+**Version 3.8.13, built 2026-10-30 07:38 ET**
 
-Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.8.12
+Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.8.13
 
 Regular address (bookmarks and Home Screen): https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/
 
 SS Conferences, the Southern Software conference tracker: Overview, Contacts, Money (amounts accounts), Evidence (admins) and Help chosen from a menu, reading the Supabase database after sign-in, with a State filter and a My shows button on every view, plus an Admin view for users with the admin permission (the owner also manages users there). Approved devices stay signed in until the next app update; Face ID / passkey sign-in is available.
+
+New in 3.8.13: the Overview tiles are Conferences, Partnerships and Power Recorded (plus Cancelled when the year has one). Paid or Partnership and Awaiting Payment / Not Yet Committed moved to the Money page (amounts accounts); Setup Recorded is removed. Contacts has an Exit button at the top and bottom of the page that returns to the page you came from (and reopens the show pop-up when opened from one). No database change.
 
 New in 3.8.12: on a phone held upright the page controls are centred and Reset / Reset All sit on their own centred row under them (turned sideways, or on a tablet or computer, they share one row). Notice bars — View As, another year, notes to review — sit above the two filter rows, one line each; the View As bar reads "Viewing: (name)" with an Exit View button. The tiles on Overview, Money and Evidence fold to one Tiles row (Expand / Collapse); whether they start shown or collapsed is a new Tiles choice in Settings, used on all three pages (Reset and Reset All go back to it). Every Admin section folds to its title and starts closed; the notes bar's Open Admin opens Notes to Review directly. The new-user message opens with "Your access to the Southern Software Conference App is here! …" and step 3 reads "Recommended: add the app to your Home Screen". No database change.
 
