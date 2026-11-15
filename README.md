@@ -1,14 +1,16 @@
 # SS Conference Tracker App
 
-**Version 3.8.17, built 2026-11-15 17:35 ET**
+**Version 3.8.18, built 2026-11-15 18:06 ET**
 
-Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.8.17
+Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.8.18
 
 Regular address (bookmarks and Home Screen): https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/
 
 SS Conferences, the Southern Software conference tracker: Overview, Contacts, Money (amounts accounts), Evidence (admins) and Help chosen from a menu, reading the Supabase database after sign-in, with a State filter and a My shows button on every view, plus an Admin view for users with the admin permission (the owner also manages users there). Approved devices stay signed in until the next app update; Face ID / passkey sign-in is available.
 
-New in 3.8.17: Admin → Names (owner only) has a Delete button for each name. It asks first ("Delete the name … for …?") and then removes the name; the email address shows instead of the name everywhere. An address still in use (sign-in account, attendee list, note or contact) stays on the list with no name; one used nowhere else drops off the list. Uses the database rule Names_Delete_Rule_v3.8.17.sql (run 11/15/2026).
+New in 3.8.18: Admin → Users (owner only) has a Training Admin tick box for every person, separate from the Admin tab box. Training Admins get Select Trainer(s) in Training Status. The box only matters when Training Status is ticked: it stays clickable (faded) when Training Status is not ticked, and unticking Training Status keeps it. The owner is always a Training Admin (ticked and locked). Add a user also has a Training Admin box, usable once Training Status is ticked. Uses Training_Admin_Step_v3.8.18.sql (run 11/15/2026).
+
+Also in 3.8.17: Admin → Names (owner only) has a Delete button for each name. It asks first ("Delete the name … for …?") and then removes the name; the email address shows instead of the name everywhere. An address still in use (sign-in account, attendee list, note or contact) stays on the list with no name; one used nowhere else drops off the list. Uses the database rule Names_Delete_Rule_v3.8.17.sql (run 11/15/2026).
 
 Also in 3.8.16: one shared access list for the Conference Tracker and Training Status. The app opens only for people whose Conference Tracker access is on; this is checked after sign-in and by the database itself (every conference table and the app's own database functions). Anyone else sees "You don't have access to the Conference Tracker. Ask Ronnie Brigman.", with an Open Training Status button only if they have Training Status access. Admin → Users (owner only) now manages both apps: Conference Tracker and Training Status tick boxes for every person (people on the list without a sign-in account show as No account); new people get only the apps that are ticked; unticking an app never deletes or blocks the account; the owner's own Conference Tracker access cannot be turned off. Set as Inactive and Delete Account now warn that they lock the person out of both apps. Switch App shows only for Admin-tab accounts that also have Training Status access. Needs App_Access_Step_2026-11-15.sql run once in Supabase and the admin-users user service v3.3.0 deployed.
 
