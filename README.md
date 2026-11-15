@@ -1,12 +1,14 @@
 # SS Conference Tracker App
 
-**Version 3.8.14, built 2026-11-14 16:59 ET**
+**Version 3.8.15, built 2026-11-15 09:17 ET**
 
-Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.8.14
+Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.8.15
 
 Regular address (bookmarks and Home Screen): https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/
 
 SS Conferences, the Southern Software conference tracker: Overview, Contacts, Money (amounts accounts), Evidence (admins) and Help chosen from a menu, reading the Supabase database after sign-in, with a State filter and a My shows button on every view, plus an Admin view for users with the admin permission (the owner also manages users there). Approved devices stay signed in until the next app update; Face ID / passkey sign-in is available.
+
+New in 3.8.15: accounts with the Admin tab have a Switch App button in the Menu (User section) that opens the SS Training App (https://hzzmbgth7t-beep.github.io/SS-Training-Status-App/) in the same tab. No database change.
 
 New in 3.8.14: shows paid through a covering partnership now say how it was paid. The show pop-up (Partnership payment) and the Money list show the partnership's date paid and payment method, e.g. "Paid 03/31/2026 · Check 6661 · via Sheriffs' Leadership Institute Platinum Sponsorship". Amounts accounts only; totals unchanged; benefit-only agreements are left out. No database change.
 
