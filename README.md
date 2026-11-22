@@ -1,14 +1,16 @@
 # SS Conference Tracker App
 
-**Version 3.8.21, built 2026-11-21 20:47 ET**
+**Version 3.8.22, built 2026-11-22 10:21 ET**
 
-Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.8.21
+Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.8.22
 
 Regular address (bookmarks and Home Screen): https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/
 
 SS Conferences, the Southern Software conference tracker: Overview, Card Reader, Money (amounts accounts), Evidence (admins) and Help chosen from a menu, reading the Supabase database after sign-in, with a State filter and a My shows button on every view, plus an Admin view for users with the admin permission (the owner also manages users there). Approved devices stay signed in until the next app update; Face ID / passkey sign-in is available.
 
-New in 3.8.21: show names no longer repeat the state. The small grey state code in front of a show name is left out when the name already starts with that state (for example "CA CNOA Annual Training Institute", or "TN/KY/GA FBI NAA Conference"); names without it keep the grey code (for example *DC NSA Winter Conference). Lists, Board, Large and Full, Money, Evidence, Next up and the Card Reader's conference list. Workbook unchanged (Ronald 1A, 87A). No database change.
+New in 3.8.22: Admin has a new section, Training Status: Card Reader Reasons, for the people Training Status counts as its admins (the owner and Training Admins). It shows the trainers' Reason Requests (Add to List or Dismiss) and the trainers' own Reason list (POC, User, Admin, IT plus any added; added reasons can be removed). It uses Training Status's own lists (ts_card_reasons, ts_reason_requests) and its rule ts_is_admin(); nothing of Training Status's is changed, and the Conference Tracker's own Reason list is separate (Ronald 86A). The User Guide gained pictures of the camera screen, the green lock, Take or Choose a Picture, the duplicate screen and Export (88A). No database change.
+
+Also in 3.8.21: show names no longer repeat the state. The small grey state code in front of a show name is left out when the name already starts with that state (for example "CA CNOA Annual Training Institute", or "TN/KY/GA FBI NAA Conference"); names without it keep the grey code (for example *DC NSA Winter Conference). Lists, Board, Large and Full, Money, Evidence, Next up and the Card Reader's conference list. Workbook unchanged (Ronald 1A, 87A). No database change.
 
 Also in 3.8.20: Contacts is now the Card Reader (Menu, page and show pop-up: Cards from This Show, Add Card). Each new browser session (and arriving from Training Status) starts with two tiles: Card Reader or Conference App. The Card Reader Menu item shows two counts when above zero: cards you saved that you have not exported (mine) and all cards you can see that you have not exported (all). Conference on a new card is filled in with the show running today or starting or finishing within 2 days (cancelled shows skipped); if several match, the card's details decide, otherwise it is left blank; adding from a show's pop-up keeps that show. Reason list: Organization Member added; Other… lets anyone use a reason once; admins (owner included) can also Add to the List; other users are asked whether to send a request, which admins see in Admin → Reason Requests (Add to List or Dismiss). After Read Card a reduced copy of the card picture is saved with the card (View Card) and is removed when the person who saved the card exports it. The Partnerships section on Overview and Money starts collapsed, with a Settings choice (Shown / Collapsed). Uses Card_Reader_Step_v3.8.20.sql (run 11/21/2026).
 
