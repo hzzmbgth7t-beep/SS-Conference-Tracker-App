@@ -1,14 +1,16 @@
 # SS Conference Tracker App
 
-**Version 3.8.19, built 2026-11-18 12:52 ET**
+**Version 3.8.20, built 2026-11-21 16:08 ET**
 
-Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.8.19
+Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.8.20
 
 Regular address (bookmarks and Home Screen): https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/
 
-SS Conferences, the Southern Software conference tracker: Overview, Contacts, Money (amounts accounts), Evidence (admins) and Help chosen from a menu, reading the Supabase database after sign-in, with a State filter and a My shows button on every view, plus an Admin view for users with the admin permission (the owner also manages users there). Approved devices stay signed in until the next app update; Face ID / passkey sign-in is available.
+SS Conferences, the Southern Software conference tracker: Overview, Card Reader, Money (amounts accounts), Evidence (admins) and Help chosen from a menu, reading the Supabase database after sign-in, with a State filter and a My shows button on every view, plus an Admin view for users with the admin permission (the owner also manages users there). Approved devices stay signed in until the next app update; Face ID / passkey sign-in is available.
 
-New in 3.8.19: Switch App is now its own Menu item, just above Admin (it is no longer in the User section). It opens Training Status directly in the same tab, without Training Status asking which app to open. Shown, as before, only to Admin-tab accounts that also have Training Status access. No database change.
+New in 3.8.20: Contacts is now the Card Reader (Menu, page and show pop-up: Cards from This Show, Add Card). Each new browser session (and arriving from Training Status) starts with two tiles: Card Reader or Conference App. The Card Reader Menu item shows two counts when above zero: cards you saved that you have not exported (mine) and all cards you can see that you have not exported (all). Conference on a new card is filled in with the show running today or starting or finishing within 2 days (cancelled shows skipped); if several match, the card's details decide, otherwise it is left blank; adding from a show's pop-up keeps that show. Reason list: Organization Member added; Other… lets anyone use a reason once; admins (owner included) can also Add to the List; other users are asked whether to send a request, which admins see in Admin → Reason Requests (Add to List or Dismiss). After Read Card a reduced copy of the card picture is saved with the card (View Card) and is removed when the person who saved the card exports it. The Partnerships section on Overview and Money starts collapsed, with a Settings choice (Shown / Collapsed). Uses Card_Reader_Step_v3.8.20.sql (run 11/21/2026).
+
+Also in 3.8.19: Switch App is now its own Menu item, just above Admin (it is no longer in the User section). It opens Training Status directly in the same tab, without Training Status asking which app to open. Shown, as before, only to Admin-tab accounts that also have Training Status access. No database change.
 
 Also in 3.8.18: Admin → Users (owner only) has a Training Admin tick box for every person, separate from the Admin tab box. Training Admins get Select Trainer(s) in Training Status. The box only matters when Training Status is ticked: it stays clickable (faded) when Training Status is not ticked, and unticking Training Status keeps it. The owner is always a Training Admin (ticked and locked). Add a user also has a Training Admin box, usable once Training Status is ticked. Uses Training_Admin_Step_v3.8.18.sql (run 11/15/2026).
 
