@@ -1,14 +1,16 @@
 # SS Conference Tracker App
 
-**Version 3.8.22, built 2026-11-22 10:21 ET**
+**Version 3.8.23, built 2026-11-26 15:43 ET**
 
-Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.8.22
+Open the newest version: https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/?v=3.8.23
 
 Regular address (bookmarks and Home Screen): https://hzzmbgth7t-beep.github.io/SS-Conference-Tracker-App/
 
 SS Conferences, the Southern Software conference tracker: Overview, Card Reader, Money (amounts accounts), Evidence (admins) and Help chosen from a menu, reading the Supabase database after sign-in, with a State filter and a My shows button on every view, plus an Admin view for users with the admin permission (the owner also manages users there). Approved devices stay signed in until the next app update; Face ID / passkey sign-in is available.
 
-New in 3.8.22: Admin has a new section, Training Status: Card Reader Reasons, for the people Training Status counts as its admins (the owner and Training Admins). It shows the trainers' Reason Requests (Add to List or Dismiss) and the trainers' own Reason list (POC, User, Admin, IT plus any added; added reasons can be removed). It uses Training Status's own lists (ts_card_reasons, ts_reason_requests) and its rule ts_is_admin(); nothing of Training Status's is changed, and the Conference Tracker's own Reason list is separate (Ronald 86A). The User Guide gained pictures of the camera screen, the green lock, Take or Choose a Picture, the duplicate screen and Export (88A). No database change.
+New in 3.8.23: Admin has one Card Reader section with two parts, Conference Tracker reasons (all admins) and Training Status reasons (the owner and Training Admins), replacing the separate Reason Requests and Training Status: Card Reader Reasons sections (Ronald 94A). Each part shows the requests (Add to List or Dismiss) and the Reason list with how many cards use each reason. Edit changes a reason's wording on the list and on every card that uses it (95A, 100A). Set Inactive takes a reason off the drop-down while cards keep it; inactive reasons stay on the list greyed with Reactivate (96A, 98A). Delete shows only when no card uses the reason (97B). Card Reader Export has a third button, Google Contacts File: label Card Reader ::: (show) (year), or Card Reader when no show; reason, date met, show, office extension, tags and notes in Notes; Mobile and Work phones (90A, 91A, 92B). Uses Card_Reader_Admin_Step_v3.8.23.sql (run 11/26/2026), which adds the active setting to both Reason lists (ts_card_reasons by Ronald 99B) and the admin functions.
+
+Also in 3.8.22: Admin has a new section, Training Status: Card Reader Reasons, for the people Training Status counts as its admins (the owner and Training Admins). It shows the trainers' Reason Requests (Add to List or Dismiss) and the trainers' own Reason list (POC, User, Admin, IT plus any added; added reasons can be removed). It uses Training Status's own lists (ts_card_reasons, ts_reason_requests) and its rule ts_is_admin(); nothing of Training Status's is changed, and the Conference Tracker's own Reason list is separate (Ronald 86A). The User Guide gained pictures of the camera screen, the green lock, Take or Choose a Picture, the duplicate screen and Export (88A). No database change.
 
 Also in 3.8.21: show names no longer repeat the state. The small grey state code in front of a show name is left out when the name already starts with that state (for example "CA CNOA Annual Training Institute", or "TN/KY/GA FBI NAA Conference"); names without it keep the grey code (for example *DC NSA Winter Conference). Lists, Board, Large and Full, Money, Evidence, Next up and the Card Reader's conference list. Workbook unchanged (Ronald 1A, 87A). No database change.
 
